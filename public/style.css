@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 800px;
+    color: #FFFFFF; /* Default text color */
+    background-color: #111111; /* background color */
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: #58a6ff;
+}
+
+.head {
+    margin-bottom: 15px;
+}
+
+.subTitle {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.usernamelink {
+    color: #7FDBFF;
+    text-decoration: none;
+}
+
+#roomUserText {
+    width: 100%;
+    text-align: right;
+}
+
+#roomStats {
+    width: 100%;
+    text-align: right;
+}
+
+#roomStats b {
+    margin-right: 20px;
+}
+
+.splitchattable, .splitstatetable {
+    width: 100%;
+}
+
+.splitstatetable td {
+    width: 50%;
+}
+
+.containerheader {
+    text-align: center;
+}
+
+.chatcontainer, .notificationcontainer, .eventcontainer {
+    overflow-y: scroll;
+    height: calc(100vh - 240px);
+    word-wrap: break-word;
+}
+
+.eventcontainer {
+    height: calc(100vh - 90px);
+}
+
+.chatcontainer {
+    min-width: 400px;
+    max-width: calc(100vw - 430px);
+}
+
+.notificationcontainer {
+    min-width: 400px;
+}
+
+.miniprofilepicture {
+    height: 20px;
+    width: 20px;
+}
+
+.gifticon {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
