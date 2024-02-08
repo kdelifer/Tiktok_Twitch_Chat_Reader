@@ -15,9 +15,8 @@ To run the chat reader locally, follow these steps:
 7. Run the command: node server.js
 8. Open http://localhost:8081/
 
-## Configuration
-Twitch channel is set in config.js (twitchOpts.channels). Tiktok live is set in app.js (uniqueId).
-
-
 Now you should see the following message: `Server running! Please visit http://localhost:8081/`<br>
 Simply open http://localhost:8081/ in your browser. Thats it.
+
+## Configuration
+Twitch channel is set in config.js (twitchOpts.channels). Tiktok live is set in app.js (uniqueId).
